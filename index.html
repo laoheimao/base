@@ -4,30 +4,40 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Base by yii2mod</title>
-
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
   </head>
   <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/yii2mod/base">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/yii2mod/base/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/yii2mod/base/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
     <div class="wrapper">
-      <header>
-        <h1>Base</h1>
-        <p>Yii2 application template</p>
 
-        <p class="view"><a href="https://github.com/yii2mod/base">View the Project on GitHub <small>yii2mod/base</small></a></p>
-
-
-        <ul>
-          <li><a href="https://github.com/yii2mod/base/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/yii2mod/base/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/yii2mod/base">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
       <section>
+        <div id="title">
+          <h1>Base</h1>
+          <p>Yii2 application template</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/yii2mod">yii2mod</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
         <h1>
 <a id="yii-2-basic-application-template" class="anchor" href="#yii-2-basic-application-template" aria-hidden="true"><span class="octicon octicon-link"></span></a>Yii 2 Basic Application Template</h1>
 
@@ -89,12 +99,9 @@ at <a href="http://getcomposer.org/doc/00-intro.md#installation-nix">getcomposer
 <p>Check and edit <code>*.local.php</code> files in the <code>config/</code> directory to customize your application.
 After check configs, execute migrations by command <code>php yii migrate</code></p>
       </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/yii2mod">yii2mod</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
+
     </div>
-    <script src="javascripts/scale.fix.js"></script>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     
   </body>
 </html>
